@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 500px;
+    width: 1280px;
+    background-color: rgba(240, 141, 80, 0.751);
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    word-spacing: 6px;
+
+}
+
+.first {
+    height: 450px;
+    width: 1280px;
+    /* display: flex; */
+}
+
+.box {
+    height: 400px;
+    width: 900px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 60px;
+    margin-left: 200px;
+    padding-top: -10px;
+    padding-left: 50px;
+    transition: width 2s, height 4s;
+}
+
+.box:hover {
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(blue, white, blue);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+    word-spacing: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    height: 50px;
+    width: 200px;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: -410px;
+    margin-left: 520px;
+    /* transition: width 2s, height 4s; */
+
+}
+
+/* .content:hover {
+    width: 220px;
+    height: 55px;
+    background-image: linear-gradient(white, blue);
+} */
+
+.boxx {
+    height: 300px;
+    width: 450px;
+    border: 0px solid white;
+    margin-left: 670px;
+    margin-top: -110px;
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: width 2s, height 4s;
+}
+
+.boxx:hover {
+    width: 600px;
+    height: 450px;
+    background-image: linear-gradient(blue, white, blue);
+}
+
+.boxxx {
+    height: 40px;
+    width: 180px;
+    border: 0px solid white;
+    border-radius: right 10px;
+    background-color: white;
+    margin-left: 918px;
+    margin-top: -270px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.second {
+    height: 400px;
+    width: 900px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 440px;
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    transition: width 2s, height 4s;
+}
+
+.second:hover {
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(blue, white, blue);
+}
+
+.linux1 {
+    height: 50px;
+    width: 250px;
+    /* border: 2px solid black; */
+    margin-top: -380px;
+    margin-left: 540px;
+    text-align: center;
+    /* transition: width 2s, height 4s; */
+}
+
+/* .linux1:hover {
+    width: 310px;
+    height: 65px;
+    background-image: linear-gradient(white, blue);
+} */
+
+.linux2 {
+    height: 40px;
+    width: 180px;
+    border: 0px solid white;
+    background-color: white;
+    margin-left: 919px;
+    margin-top: -112px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.linux3 {
+    height: 250px;
+    width: 180px;
+    border: 0px solid white;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 220px;
+    /* transition: width 2s, height 4s; */
+}
+
+/* .linux3:hover {
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(blue, white, blue);
+} */
+
+.linux4 {
+    height: 250px;
+    width: 180px;
+    border: 0px solid white;
+    background-color: white;
+    margin-top: -250px;
+    margin-left: 450px;
+    /* transition: width 2s, height 4s; */
+}
+
+/* .linux4:hover {
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(blue, white, blue);
+} */
+
+.linux5 {
+    height: 250px;
+    width: 180px;
+    border: 0px solid white;
+    background-color: white;
+    margin-top: -250px;
+    margin-left: 660px;
+    /* transition: width 2s, height 4s; */
+}
+
+/* .linux5:hover {
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(blue, white, blue);
+} */
+
+.linux6 {
+    height: 250px;
+    width: 180px;
+    border: 0px solid white;
+    background-color: white;
+    margin-top: -250px;
+    margin-left: 870px;
+    /* transition: width 2s, height 4s; */
+}
+
+/* .linux6:hover {
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(blue, white, blue);
+} */
+
+.box1 {
+    height: 150px;
+    width: 580px;
+    border: 1px solid;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+
+}
+
+.box2 {
+    height: 150px;
+    width: 580px;
+    border: 1px solid;
+    margin-top: -150px;
+    margin-left: 664px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.box3 {
+    height: 150px;
+    width: 1200px;
+    border: 1px solid;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.img1 {
+    margin-top: -310px;
+    margin-left: 500px;
+    display: flex;
+}
+
+.img2 {
+    margin-top: -100px;
+    margin-left: 1090px;
+    display: flex;
+}
+
+.img3 {
+    margin-top: 80px;
+    margin-left: 940px;
+    display: flex;
+}
+
+.info {
+    height: 90px;
+    /* width: 1270px; */
+    width: 100vw;
+    /* background-color: rgb(14, 143, 212); */
+    background-image: linear-gradient(rgb(14, 143, 212), blue);
+    width: 100vw;
+    position: fixed;
+}
+
+.info1 {
+    height: 40px;
+    width: 1280px;
+    border: 0px solid;
+    float: left;
+    padding-left: 20px;
+    color: white;
+    text-align: center;
+}
+
+.infoo {
+    color: white;
+    margin-left: 1220px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* style for navigation bar */
+
+
+ul li {
+    display: inline-block;
+    padding: 15px 60px;
+
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* .info2{
+    height: 40px;
+    width: 620px;
+    border: px solid ;
+    float: right;
+    padding-left: 50px;
+    color: white;
+    padding-left: 190px;
+} */
+.info3 {
+    height: 40px;
+    width: 211px;
+    border: 0px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.info4 {
+    height: 40px;
+    width: 211px;
+    border: 0px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.info5 {
+    height: 40px;
+    width: 211px;
+    border: 0px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.info6 {
+    height: 40px;
+    width: 210px;
+    border: 0px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.info7 {
+    height: 40px;
+    width: 210px;
+    border: 0px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.info8 {
+    height: 40px;
+    width: 211px;
+    border: 0px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.footer {
+    height: 100px;
+    width: 1250px;
+    background-color: rgb(0, 0, 0);
+    /* position: fixed; */
+    /* bottom: 2px; */
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding-top: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+/* login  styling */
+
+.login a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 400px;
+}
+
+/*  here write style for footar */
+
+.foo {
+    width: 1250px;
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.foo1 {
+    color: white;
+    font-size: 23px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.foo2 {
+    float: right;
+    color: gold;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 580px;
+
+}
