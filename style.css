@@ -63,6 +63,8 @@
     z-index: 1;
     color: black;
     word-spacing: 8px;
+    left: 100px;
+    bottom: -120px;
 }
 
 .dropdown:hover .dropdown-content {
